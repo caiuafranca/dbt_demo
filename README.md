@@ -1,15 +1,17 @@
-Welcome to your new dbt project!
+Projeto Demo de uso sobre o DBT
+
+Projeto analisa dados de um dataset e constroi um modelo de dados e salva em um banco postgresql
+
+OBS. é preciso configurar o ~/.dbt/profile.yml
+
+foi instalado o dbd.utils para fazer uso do surrogate_key para criar as chaves 
 
 ### Using the starter project
 
-Try running the following commands:
+
 - dbt run
 - dbt test
 
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](http://slack.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+### Modelo de Dados
+
